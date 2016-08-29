@@ -2,7 +2,7 @@
 
 [
  {proxylocal, [{domain, "t.lvh.me:8080"},
-               {http,   [{port, 8585}, {ip, any}]},
+               {http,   [{port, 8080}, {ip, any}]},
                {client, [{port, 8787}, {ip, any}]}]},
 
  {sasl, [{errlog_type, error},
